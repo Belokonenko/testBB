@@ -18,7 +18,7 @@
         url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Medium.woff ) format('woff'),
         url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Medium.otf ) format('otf'),
         url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Medium.ttf ) format('truetype');
-        
+
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -71,7 +71,7 @@
  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
 }
 .margin-bottom {
   margin-bottom: 40px;
@@ -139,7 +139,7 @@
 .general-title {
   color: white;
   font-family: Gilroy-ExtraBold,sans-serif;
-  font-weight: 900; 
+  font-weight: 900;
   font-size: 67px;
   text-transform: uppercase;
 }
@@ -148,7 +148,7 @@
   white-space: nowrap;
   margin-left: 20px;
   margin-right: 1px;
-  
+
 }
 
 .title-left {
@@ -158,12 +158,12 @@
 .general-title > span {
   margin-right: 10px;
   color: #000;
-  -webkit-text-stroke: 1px white;   
+  -webkit-text-stroke: 1px white;
 }
 
 .text-descr {
   font-family: Gilroy-Medium,sans-serif;
-  font-weight: 500; 
+  font-weight: 500;
   font-size: 23px;
   margin-top: 20px;
   color: white;
@@ -204,7 +204,7 @@
 
 .orange-text {
   color: #DF5A24;
-  font-family: Gilroy-ExtraBold,sans-serif; 
+  font-family: Gilroy-ExtraBold,sans-serif;
   font-weight: 900;
   font-size: 20px;
   margin-top: 20px;
@@ -269,7 +269,7 @@
 }
 
 .sub-title {
-  font-family: Gilroy-Bold,sans-serif; 
+  font-family: Gilroy-Bold,sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #DF5A24;
@@ -324,7 +324,6 @@
   position: absolute;
   left: -2px;
 }
-
 .invest-list-black {
   padding: 18px 25px 18px 100px;
   display: flex;
@@ -340,7 +339,7 @@
 }
 .invest-list-link {
   color: #C82F1A;
-  font-family: Gilroy-Bold,sans-serif; 
+  font-family: Gilroy-Bold,sans-serif;
   font-weight: 700;
   font-size: 17px;
   white-space: nowrap;
@@ -484,7 +483,7 @@
 .solution-sub-title {
   color: #DF5A24;
   margin-right: 10px;
-  font-family: Gilroy-ExtraBold,sans-serif; 
+  font-family: Gilroy-ExtraBold,sans-serif;
   font-weight: 900;
   font-size: 23px;
   text-transform: uppercase;
@@ -541,7 +540,7 @@
 
 .title-technology {
   font-family: Gilroy-ExtraBold,sans-serif;
-  font-weight: 900; 
+  font-weight: 900;
   font-size: 58px;
   text-transform: uppercase;
   gap: 2px;
@@ -597,7 +596,7 @@
     font-size: 67px;
     position: relative;
     left: 25px;
-}   
+}
 
 .text-dark {
   color: #000;
@@ -609,7 +608,7 @@
 }
 
 .late-bg {
-  background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/Late-2022-bg1.jpg) center center/100% no-repeat; 
+  background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/Late-2022-bg1.jpg) center center/100% no-repeat;
 }
 
 .orange-circle {
@@ -762,7 +761,7 @@
 
 .padding-bottom-problem {
   padding-bottom: 50px;
-}       
+}
 
 .text-сonditions {
   font-family: Gilroy-RegularItalic,sans-serif;
@@ -783,4 +782,51 @@
 
 .business-img {
   width: 100%;
+}
+
+
+@media (min-width: 1200px) {
+  /* === base === */
+  .general-container {
+    width: 1120px;
+  }
+  /* === /base === */
+  /* === header === */
+  .logo-block {
+    background-image: url(img/Wave-Top.svg);
+    background-size: contain;
+  }
+  .local-container > .mobi{
+    display: none;
+  }
+  /* === /header === */
+  .logo-container img {
+    height: 70px;
+
+  }
+  .smoke-container {
+    width: 100%;
+  }
+  .smoke-container>img {
+  }
+  /* === invest === */
+  .invest-list-num{
+    position: absolute;
+    right: 5%;
+    top: -35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+    height: 2em;
+    width: 2em;
+    outline: 5px solid #fff;
+    border: 2px solid red;
+    line-height: 0;
+    color: red;
+    font-size: 25px;
+    font-family: Gilroy-ExtraBold,sans-serif;;
+  }
+  /* === /invest === */
 }
