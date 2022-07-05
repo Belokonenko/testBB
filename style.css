@@ -47,6 +47,10 @@
     font-display: swap;
   }
 
+.hide-min {
+  display: none;
+}
+
 .h2-reset {
   margin: 0;
   line-height: 1;
@@ -790,6 +794,9 @@
   .general-container {
     width: 1120px;
   }
+  .cancel-gen-container {
+    width: 100%;
+  }
   /* === /base === */
   /* === header === */
   .logo-block {
@@ -827,12 +834,16 @@
   .smoke-container>img {
   }
   .title-block {
+    /* position: absolute; */
+    /* top: -88px; */
+    /* left: 32%; */
+    /* min-width:100%; */
+  }
+  .title-banner {
+    min-width:100%;
     position: absolute;
     top: -88px;
     left: 32%;
-    min-width:100%;
-
-
   }
   .gradient-line {
     order: 3;
@@ -856,6 +867,8 @@
     padding-top: 45px;
     margin-bottom: 60px;
   }
+/* === /banner smoke-container === */
+ /* === review === */ 
   .text-descr-review {
     font-size: 21px;
   }
@@ -863,11 +876,44 @@
     max-width: 1120px;
     margin: 0 auto;
     min-height: 145px;
-
-
   }
-  /* === /banner smoke-container === */
-  /* === invest === */
+  /* === /review === */ 
+  .who-descr-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    column-gap: 0;
+  }
+  .who-descr-container > img {
+    height: auto;
+    width: 100%;
+  }
+  .who-descr-container:last-child{
+    margin: 0;
+  }  
+  .hide-min {display: inline;}
+ .descr-items p, div {
+    align-items: center;
+  }
+  .video {
+    padding: 100px  0;
+    background-image: url(img/musical_rhythms-bg-dark-grey.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-color: #2e3234;
+  }
+  /* === mission === */
+  .mission-section>.general-container {
+    width: 100%;
+  }
+  .mission-block {
+    display: grid;
+    
+  }
+
+  /* === /mission === */
+/* === invest === */
   .invest-list-num {
     position: absolute;
     right: 5%;
