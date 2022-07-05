@@ -795,6 +795,12 @@
   .logo-block {
     background-image: url(img/Wave-Top.svg);
     background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    min-height: 280px;
+  }
+  .company-logo {
+    height: 108px;
   }
   .local-container > .mobi{
     display: none;
@@ -805,7 +811,13 @@
 
   }
   .smoke-container {
+    background-image: url(img/bg-top.png);
     width: 100%;
+  }
+  .smoke-container > .img-product {
+    left: 50%;
+    transform: translate(-50%);
+    width: 50%;
   }
   .smoke-container>img {
   }
