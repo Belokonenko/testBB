@@ -878,7 +878,7 @@
     min-height: 145px;
   }
   /* === /review === */ 
-  .who-descr-container {
+  .review-who-des-con {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0;
