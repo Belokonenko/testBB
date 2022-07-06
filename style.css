@@ -800,10 +800,10 @@
   /* === /base === */
   /* === header === */
   .logo-block {
-    background-image: url(img/Wave-Top.svg);
-    background-size: contain;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+    /* background-image: url(img/Wave-Top.svg); */
+    /* background-size: contain; */
+    /* background-position: 50% 50%; */
+    /* background-repeat: no-repeat; */
     min-height: 280px;
   }
   .company-logo {
@@ -946,7 +946,13 @@
   }
   .mission-img-mob { display: none;}
 
-
+  .img-position {
+    width: 100%;
+    height: auto;
+    /* object-position: center center; */
+    /* transform: translate(-50% -50%); */
+    /* object-fit: cover; */
+  }
   /* === /mission === */
 /* === invest === */
   .invest-list-num {
