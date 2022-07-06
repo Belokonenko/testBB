@@ -867,16 +867,16 @@
     margin-bottom: 60px;
   }
 /* === /banner smoke-container === */
- /* === review === */ 
+ /* === review === */
   .text-descr-review {
     font-size: 21px;
   }
-  .reviews {
+  .reviews-bg {
     max-width: 1120px;
     margin: 0 auto;
     min-height: 145px;
   }
-  /* === /review === */ 
+  /* === /review === */
   .review-who-des-con {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -889,7 +889,7 @@
   }
   .who-descr-container:last-child{
     margin: 0;
-  }  
+  }
   .hide-min {display: inline;}
  .descr-items p, div {
     align-items: center;
@@ -909,10 +909,10 @@
   .mission-block {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 
-    max-content 
-    max-content 
-    max-content 
+    grid-template-rows:
+    max-content
+    max-content
+    max-content
     max-content;
   }
   .mission-title-block {
@@ -970,8 +970,37 @@
     justify-content: center;
   }
   .invest-general-title-bottom {
-    font-size: 83px; 
+    font-size: 83px;
   }
-  
+
   /* === /invest === */
+  /* === quote === */
+    .quotes{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      max-width: 1400px;
+      margin: 100px auto;
+      gap: 5%;
+
+    }
+    .quote{
+      justify-self: stretch;
+      align-self: stretch;
+      padding: 30px;
+    }
+    .quote-reviews > img {
+      width:35%;
+    }
+    .reviews-descr{
+      width: 70%;
+      align-items: start;
+      justify-content: space-between;
+      height: 100%;
+    }
+   .reviews-orange-bg  {
+      margin: 0;
+   }
+  /* === quote === */
+  /* === quote === */
+  /* === /quote === */
 }
