@@ -847,6 +847,7 @@
   }
   .gradient-line {
     order: 3;
+    height: 65px;
   }
   .general-title {
     font-size: 90px;
