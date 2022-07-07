@@ -857,11 +857,12 @@
   .gradient-line {
     order: 3;
     height: 63px;
-    /* height: 100%; */
+    margin-left: 40px; 
+    margin-right: 40px;
   }
   .general-title {
     font-size: 90px;
-    line-height: 1;
+    line-height: 0;
   }
   .banner-text-container{
     width: 100%;
