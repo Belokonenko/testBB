@@ -859,7 +859,7 @@
     height: 63px;
   }
   .gradient-line-left-marg{
-    margin-left: 40px; 
+    margin-left: 40px;
   }
   .gradient-line-r-marg{
     margin-right: 40px;
@@ -975,7 +975,7 @@
     height: 1px;
     width: 100px;
     background: grey;
-  } 
+  }
   .sub-title-mission-block::after{
     margin-left: 50px;
   }
@@ -1052,6 +1052,12 @@
 
   /* === problem === */
   .problem-sec-desctop {
+    /* background-image: url(img/wave_sec-problem_bottom.svg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+    /* background-position: bottom center; */
+    /* background-position-y: 130%; */
+    /* background-position-x: 50%; */
   }
   .problem-section-wrap {
     display: grid;
@@ -1101,10 +1107,53 @@
   }
   /* === /problem === */
   /* === solution === */
-    .solution-section {
-      background-image: url(img/bg-section-solution.png);
-    } 
+  .solution-section {
+    background-image: url(img/bg-section-solution.png);
+  }
+  .solution-title-block {
+    position: relative;
+    top: 255px;
+    margin: 0 auto;
+  }
+  .solution-title-block::before{
+    content: '';
+    position: absolute;
+    right: 110%;
+    display: block;
+    height: 78%;
+    width: 40vw;
+    line-height: 1;
+    background: linear-gradient(45deg,#D9673B, #D3532D, #C31C12);;
+
+  }
+  .title-solution {
+
+  }
+  .problem-title {
+    flex-direction: row;
+  }
+    .solution-text-descr {
+      margin-top: 300px;
+    }
+.solution-text-descr>p {
+  font-size: 30px;
+}
+.solution-text-p {
+  max-width: 1120px;
+  margin:0 auto;
+}
+.solution-green-block {
+  padding: 15px 101px;
+  border: 1px solid #C8F931;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.solution-product-img,
+.solution-functions{
+  display: none;
+}
   /* === /solution === */
 
-  
 }
