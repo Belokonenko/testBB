@@ -949,6 +949,20 @@
   .sub-title-mission-block {
     margin-top: 100px;
   }
+  .sub-title-mission-block::after,
+  .sub-title-mission-block::before{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100px;
+    background: grey;
+  } 
+  .sub-title-mission-block::after{
+    margin-left: 50px;
+  }
+  .sub-title-mission-block::before{
+    margin-right: 50px;
+  }
   .mission-img-mob { display: none;}
 
   .img-position {
