@@ -791,13 +791,13 @@
 
 @media (min-width: 1200px) {
   /* === base === */
-.fix-line-tr {
-  font-size: 0;
-}
+  .fix-line-tr {
+    font-size: 0;
+  }
 
-.decorative-line {
-  width: 200px;
-}
+  .decorative-line {
+    width: 200px;
+  }
   .general-container {
     width: 1120px;
   }
@@ -807,28 +807,29 @@
   /* === /base === */
   /* === header === */
   .logo-block {
-    /* background-image: url(img/Wave-Top.svg); */
-    /* background-size: contain; */
-    /* background-position: 50% 50%; */
-    /* background-repeat: no-repeat; */
-    min-height: 280px;
+    min-height: 230px;
   }
   .company-logo {
-    height: 108px;
+    height: 109px;
+    margin-top: 50px;
   }
+  .logo-container{
+    width: 1120px;
+  }
+
   .local-container > .mobi{
     display: none;
   }
   /* === /header === */
   /* === banner smoke-container === */
   .logo-container img {
-    height: 70px;
+    height: 60px;
+    margin-right: 10px;
 
   }
   .smoke-container {
     background-image: url(img/bg-banner-01.jpg);
-    /* background-image: url(img/smoke-cont-desc.png); */
-    
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position:  center center;
@@ -836,9 +837,10 @@
     min-height: 700px;
   }
   .smoke-container > .img-product {
+    top: -75px;
     left: 50%;
     transform: translate(-50%);
-    min-height: 500px;
+    min-height: 750px;
   }
   .title-block {
     /* position: absolute; */
