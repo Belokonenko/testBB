@@ -1,51 +1,51 @@
 
 @font-face {
-    font-family: 'Gilroy-ExtraBold';
-    src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Extrabold.woff2 ) format('woff2'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Extrabold.woff ) format('woff'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-ExtraBold.otf ) format('otf'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Extrabold.ttf ) format('truetype');
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
-  }
+  font-family: 'Gilroy-ExtraBold';
+  src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Extrabold.woff2 ) format('woff2'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Extrabold.woff ) format('woff'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-ExtraBold.otf ) format('otf'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Extrabold.ttf ) format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
-    font-family: 'Gilroy-Medium';
-    src: local('Gilroy Medium'), local('Gilroy-Medium'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Medium.woff2 ) format('woff2'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Medium.woff ) format('woff'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Medium.otf ) format('otf'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Medium.ttf ) format('truetype');
+  font-family: 'Gilroy-Medium';
+  src: local('Gilroy Medium'), local('Gilroy-Medium'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Medium.woff2 ) format('woff2'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Medium.woff ) format('woff'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Medium.otf ) format('otf'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Medium.ttf ) format('truetype');
 
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-  }
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
-    font-family: 'Gilroy-Bold';
-    src: local('Gilroy Bold'), local('Gilroy-Bold'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Bold.woff2 ) format('woff2'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Bold.woff ) format('woff'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Bold.otf ) format('otf'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Bold.ttf ) format('truetype');
-    font-display: swap;
-    font-weight: 700;
-    font-style: normal;
-  }
+  font-family: 'Gilroy-Bold';
+  src: local('Gilroy Bold'), local('Gilroy-Bold'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Bold.woff2 ) format('woff2'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Bold.woff ) format('woff'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Bold.otf ) format('otf'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-Bold.ttf ) format('truetype');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: 'Gilroy-RegularItalic';
-    src: local('Gilroy RegularItalic'), local('Gilroy-RegularItalic'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-RegularItalic.woff2 ) format('woff2'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-RegularItalic.woff ) format('woff'),
-        url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-RegularItalic.ttf ) format('truetype');
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
-  }
+@font-face {
+  font-family: 'Gilroy-RegularItalic';
+  src: local('Gilroy RegularItalic'), local('Gilroy-RegularItalic'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-RegularItalic.woff2 ) format('woff2'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-RegularItalic.woff ) format('woff'),
+  url( https://jamstack-assets.s3.us-west-1.amazonaws.com/fonts/Gilroy-RegularItalic.ttf ) format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
 
 .hide-min {
   display: none;
@@ -72,7 +72,7 @@
 }
 
 .flex-container {
- text-align: center;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -434,7 +434,7 @@
 
 .music-rytms-bottom {
   position: relative;
-    left: -33px;
+  left: -33px;
 }
 
 .solution-section {
@@ -597,9 +597,9 @@
 }
 
 .title-technology > span {
-    font-size: 67px;
-    position: relative;
-    left: 25px;
+  font-size: 67px;
+  position: relative;
+  left: 25px;
 }
 
 .text-dark {
@@ -831,8 +831,6 @@
     transform: translate(-50%);
     min-height: 500px;
   }
-  .smoke-container>img {
-  }
   .title-block {
     /* position: absolute; */
     /* top: -88px; */
@@ -867,8 +865,8 @@
     padding-top: 45px;
     margin-bottom: 60px;
   }
-/* === /banner smoke-container === */
- /* === review === */
+  /* === /banner smoke-container === */
+  /* === review === */
   .text-descr-review {
     font-size: 21px;
   }
@@ -892,9 +890,13 @@
     margin: 0;
   }
   .hide-min {display: inline;}
- .descr-items p, div {
-    align-items: center;
+  /* .descr-items p, div { */
+  /*    align-items: center; */
+  /*  } */
+  .who-descr-items {
+    margin: 0 auto;
   }
+
   .video {
     padding: 100px  0;
     background-image: url(img/musical_rhythms-bg-dark-grey.svg);
@@ -954,7 +956,7 @@
     /* object-fit: cover; */
   }
   /* === /mission === */
-/* === invest === */
+  /* === invest === */
   .invest-list-num {
     position: absolute;
     right: 5%;
@@ -982,54 +984,54 @@
 
   /* === /invest === */
   /* === quote === */
-    .quotes{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      max-width: 1400px;
-      margin: 100px auto;
-      gap: 5%;
+  .quotes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1400px;
+    margin: 100px auto;
+    gap: 5%;
 
-    }
-    .quote{
-      justify-self: stretch;
-      align-self: stretch;
-      padding: 30px;
-    }
-    .quote-reviews > img {
-      width:35%;
-    }
-    .reviews-descr{
-      width: 70%;
-      align-items: start;
-      justify-content: space-between;
-      height: 100%;
-    }
-   .reviews-orange-bg  {
-      margin: 0;
-   }
+  }
+  .quote{
+    justify-self: stretch;
+    align-self: stretch;
+    padding: 30px;
+  }
+  .quote-reviews > img {
+    width:35%;
+  }
+  .reviews-descr{
+    width: 70%;
+    align-items: start;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .reviews-orange-bg  {
+    margin: 0;
+  }
   /* === /quote === */
 
-   /* === problem === */
-    .problem-sec-desctop {
-    }
-   .problem-section-wrap {
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: max-content 1fr max-content;
-   }
-   .img-problem {
-     display: none;
-   }
-   .img-problem-hiden {
-     display: block;
-     grid-column: 1/2;
-     grid-row: 1/3;
-     width: 100%;
-     height: 90%;
-     object-fit: cover;
-     object-position: center;
+  /* === problem === */
+  .problem-sec-desctop {
+  }
+  .problem-section-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: max-content 1fr max-content;
+  }
+  .img-problem {
+    display: none;
+  }
+  .img-problem-hiden {
+    display: block;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
 
-   }
+  }
   .problem-title-desc {
     grid-column: 2/-1;
     grid-row: 1/2;
@@ -1042,21 +1044,21 @@
     width: 70%;
 
   }
-   .problem-green-item {
-     display: none;
-   }
-   .green-item-hidden {
-     display: block;
+  .problem-green-item {
+    display: none;
+  }
+  .green-item-hidden {
+    display: block;
     grid-column: 1/-1;
     grid-row: 3/-1;
     width: 1120px;
     margin:50px auto;
-   }
-    .green-item-hidden>h4 {
+  }
+  .green-item-hidden>h4 {
     font-size:36px ;
-    }
-   .problem-music-rytms-bottom {
-     display: none;
-   }
-   /* === /problem === */
- }
+  }
+  .problem-music-rytms-bottom {
+    display: none;
+  }
+  /* === /problem === */
+}
