@@ -886,9 +886,10 @@
     margin: 0;
     column-gap: 0;
   }
-  .who-descr-container > img {
-    height: auto;
+  .revi-picture {
+    /* height: auto; */
     width: 100%;
+    max-height: 900px;
   }
   .who-descr-container:last-child{
     margin: 0;
