@@ -1126,6 +1126,9 @@
     background: linear-gradient(45deg,#D9673B, #D3532D, #C31C12);;
 
   }
+  .solution-decor-line-hidden {
+    display: none;
+  }
   .title-solution {
 
   }
@@ -1141,6 +1144,7 @@
 .solution-text-p {
   max-width: 1120px;
   margin:0 auto;
+  margin-bottom: 100px;
 }
 .solution-green-block {
   padding: 15px 101px;
@@ -1153,6 +1157,23 @@
 .solution-product-img,
 .solution-functions{
   display: none;
+}
+.solution-wrap-img-text {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.solution-text-order {
+  order: 2;
+}
+.img-product-smoke-monitor {
+  width: 100%;
+}
+.wrap-solution-img-text-2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 
+  max-content
+  max-content;
 }
   /* === /solution === */
 
