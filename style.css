@@ -857,7 +857,11 @@
   .gradient-line {
     order: 3;
     height: 63px;
+  }
+  .gradient-line-left-marg{
     margin-left: 40px; 
+  }
+  .gradient-line-r-marg{
     margin-right: 40px;
   }
   .general-title {
