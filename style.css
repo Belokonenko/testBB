@@ -1096,4 +1096,11 @@
     display: none;
   }
   /* === /problem === */
+  /* === solution === */
+    .solution-section {
+      background-image: url(img/bg-section-solution.png);
+    } 
+  /* === /solution === */
+
+  
 }
