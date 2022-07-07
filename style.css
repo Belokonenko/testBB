@@ -791,6 +791,10 @@
 
 @media (min-width: 1200px) {
   /* === base === */
+
+.decorative-line {
+  width: 200px;
+}
   .general-container {
     width: 1120px;
   }
