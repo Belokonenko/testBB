@@ -957,6 +957,9 @@
   }
   /* === /mission === */
   /* === invest === */
+  .invest-section>.title-bg {
+    background-image: url(img/Wave-for-white-bg.svg);
+  }
   .invest-list-num {
     position: absolute;
     right: 5%;
