@@ -862,7 +862,7 @@
   }
   .general-title {
     font-size: 90px;
-    line-height: 0;
+    line-height: 1;
   }
   .banner-text-container{
     width: 100%;
