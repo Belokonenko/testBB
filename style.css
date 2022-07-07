@@ -791,6 +791,9 @@
 
 @media (min-width: 1200px) {
   /* === base === */
+.fix-line-tr {
+  font-size: 0;
+}
 
 .decorative-line {
   width: 200px;
@@ -824,6 +827,8 @@
   }
   .smoke-container {
     background-image: url(img/bg-banner-01.jpg);
+    /* background-image: url(img/smoke-cont-desc.png); */
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position:  center center;
