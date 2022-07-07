@@ -946,6 +946,9 @@
   .mission-sub-title {
     font-size: 46px;
   }
+  .sub-title-mission-block {
+    margin-top: 100px;
+  }
   .mission-img-mob { display: none;}
 
   .img-position {
