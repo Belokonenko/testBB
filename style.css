@@ -856,10 +856,12 @@
   }
   .gradient-line {
     order: 3;
-    height: 65px;
+    height: 63px;
+    /* height: 100%; */
   }
   .general-title {
     font-size: 90px;
+    line-height: 1;
   }
   .banner-text-container{
     width: 100%;
