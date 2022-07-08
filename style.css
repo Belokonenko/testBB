@@ -1357,6 +1357,20 @@
   margin: 0 auto;
 }
 
-  /* /advantages */
-  /* === /solution === */
+/* /advantages */
+/* === /solution === */
+/* === technology === */
+.title-technology-desktop-0{
+  text-align: center;
 }
+.title-technology>span {
+  left: 0;
+  color: red;
+}
+.tech-sub-text {
+  flex-direction: row;
+}
+.tech-wrap-orenge-logo-text{
+  grid-template-columns: max-content 1fr;
+}
+/* === /technology === */
