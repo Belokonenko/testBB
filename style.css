@@ -1239,6 +1239,28 @@
     grid-column: 1/2;
     grid-row: 2/-1;
   }
+  
+  .block-wrap {
+  }
+  
+  .text-near-photo {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .text-w-mob {
+    position: relative; 
+    margin-bottom: 50px;
+  }
+  .text-w-mob::after{
+    content: '';
+    position: absolute;
+    top: -20px;
+    display: block;
+    height: 2px;
+    width: 200px;
+
+    background: linear-gradient(45deg,#D9673B, #D3532D, #C31C12);
+  }
   /* /grid-car */
   .block-want-title--hiden {
     display: block;
@@ -1265,6 +1287,13 @@
   grid-column: 1/2;
   grid-row: 1/6;
 }
+.advan-grid {
+  display: flex;
+}
+.end {
+  justify-content: end;
+}
+
 .adventages-title-1 {
   grid-column: 2/-1;
   grid-row: 1/2;
@@ -1304,6 +1333,7 @@
 .adventages-title-6 {
   grid-column: 1/2;
   grid-row: 10/11;
+  flex-direction: row-reverse;
 }
 .adventages-decor-deser-6 {
   grid-column: 1/2;
