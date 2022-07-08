@@ -1135,46 +1135,94 @@
   .problem-title {
     flex-direction: row;
   }
-    .solution-text-descr {
-      margin-top: 300px;
-    }
-.solution-text-descr>p {
-  font-size: 30px;
-}
-.solution-text-p {
-  max-width: 1120px;
-  margin:0 auto;
-  margin-bottom: 100px;
-}
-.solution-green-block {
-  padding: 15px 101px;
-  border: 1px solid #C8F931;
-  text-align: center;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+  .solution-text-descr {
+    margin-top: 300px;
+  }
+  .solution-text-descr>p {
+    font-size: 30px;
+  }
+  .solution-text-p {
+    max-width: 1120px;
+    margin:0 auto;
+    margin-bottom: 100px;
+  }
+  .solution-green-block {
+    padding: 15px 101px;
+    border: 1px solid #C8F931;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
-.solution-product-img,
-.solution-functions{
-  display: none;
-}
-.solution-wrap-img-text {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-.solution-text-order {
-  order: 2;
-}
-.img-product-smoke-monitor {
-  width: 100%;
-}
-.wrap-solution-img-text-2 {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-rows: 
-  max-content
-  max-content;
-}
+  .solution-product-img,
+  .solution-functions{
+    display: none;
+  }
+  .solution-wrap-img-text {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .solution-text-order {
+    order: 2;
+  }
+  .img-product-smoke-monitor {
+    width: 100%;
+  }
+  .wrap-solution-img-text-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:
+    max-content
+    max-content;
+  }
+  /* wrap-want-to-take */
+
+  .wrap-want-to-take  {
+    display: grid;
+    grid-template-rows: max-content max-content;
+  }
+  .block-want-title {
+    display: none;
+  }
+  .wrap-wave-wanr-t-t {
+  }
+  /* grid-car */
+  .solution-want-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:
+    max-content
+    max-content
+  }
+  .car-img {
+    order: 3;
+    grid-column: 2/-1;
+    grid-row: 1/-1;
+    width: 100%;
+  }
+  .block-want-title--hiden {
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+  }
+  .car-text-p {
+    grid-column: 1/2;
+    grid-row: 2/-1;
+  }
+  /* /grid-car */
+  .block-want-title--hiden {
+    display: block;
+  }
+  .wrap-want-img-text {
+
+  }
+  /* .white-border-block { */
+  /*   max-width: 1120px; */
+  /*   margin: 0 auto; */
+    /* margin-top: 100px; */
+  /* } */
+  /* /wrap-want-to-take */
+
   /* === /solution === */
 
 }
