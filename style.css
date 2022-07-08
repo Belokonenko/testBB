@@ -1393,5 +1393,16 @@
  align-self: center;
  padding-left: 30px;
 }
+.tech-img-descr-product {
+  display: grid;
+  grid-template-columns: 50% 1fr;
+}
+.tech-product-img {
+  height: auto;
+  width: 100%;
+}
+.tech-infographic-img {
+ width: 100%; 
+}
 /* /tech orange top line */
 /* === /technology === */
