@@ -1216,11 +1216,11 @@
   .wrap-want-img-text {
 
   }
-  /* .white-border-block { */
-  /*   max-width: 1120px; */
-  /*   margin: 0 auto; */
-    /* margin-top: 100px; */
-  /* } */
+  .block-white-unique {
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
   /* /wrap-want-to-take */
 
   /* === /solution === */
