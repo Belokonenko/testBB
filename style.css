@@ -1663,3 +1663,11 @@ grid-template-columns: 1fr 1fr;
 .blk-txt>div{
   margin: 0;
 }
+
+/* opportunity */
+ .opportunity .general-title {
+    font-size: 52px;
+    margin-top: 50px;
+ }
+
+/* /opportunity */
