@@ -1641,16 +1641,25 @@ grid-template-columns: 1fr 1fr;
 }
 
 .blk-txt * {
-  font-size: 14px;
+  font-size: 16px;
 }
 .blk-txt .grey-bg {
   padding: 10px;
+  margin: 0;
 }
 
 .blk-txt .grey-bg * {
   font-size: 20px;
   text-align: start;
 }
+.blk-txt h3 {
+  font-size: 30px;
+  text-align: start;
+}
 .blk-txt p {
   padding: 10px;
+  text-align: start;
+}
+.blk-txt>div{
+  margin: 0;
 }
