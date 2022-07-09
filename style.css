@@ -1413,6 +1413,24 @@
 .technology-title-block > img {
   height: 331px;
 }
+.tech-warp-deviсe  {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: max-content max-content;
+}
+.tech-device-blc-0 {
+  grid-column: 1/2;
+  grid-row: 1/-1;
+}
+.tech-device-blc-1 {
+  grid-column: 2/-1;
+  grid-row: 1/2;
+}
+.tech-device-desc {
+  grid-column: 2/-1;
+  grid-row: 2/3;
+}
+
 
 /* /tech orange top line */
 /* === /technology === */
