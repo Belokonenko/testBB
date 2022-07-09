@@ -1217,12 +1217,12 @@
   .wrap-wave-wanr-t-t {
   }
   /* grid-car */
-  .solution-want-block {
+  .solution-block-cards-4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows:
     max-content
-    max-content
+    max-content;
   }
   .car-img {
     order: 3;
