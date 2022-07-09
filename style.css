@@ -1464,6 +1464,13 @@
 .logo-grad-line {
   width: 26%
 }
+.next-up-intem  {
+  width: 60%;
+}
+
+.next-up-intem > h4  {
+  font-size: 24px;
+}
 .app-wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
