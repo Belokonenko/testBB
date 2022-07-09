@@ -1624,4 +1624,33 @@
 font-size: 14px;
 }
 
-/* /sec-business */ 
+.wrap-mr {
+border: solid 1px red;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.blk-txt {
+  border: solid 5px gold;
+  padding-right: 25px;
+  margin-left: auto;
+  width: 560px;
+}
+
+.blk-txt .general-container {
+  width: 500px;
+}
+
+.blk-txt * {
+  font-size: 14px;
+}
+.blk-txt .grey-bg {
+  padding: 10px;
+}
+
+.blk-txt .grey-bg * {
+  font-size: 20px;
+  text-align: start;
+}
+.blk-txt p {
+  padding: 10px;
+}
