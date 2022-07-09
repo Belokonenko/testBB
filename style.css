@@ -1410,13 +1410,18 @@
 .tech-wrap-scaa {
   width: 950px;
 }
-.technology-title-block > img {
-  height: 331px;
+.tech-warp-deviсe {
+  max-width: 950px;
+}
+.photo {
+  height: 265px;
 }
 .tech-warp-deviсe  {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: max-content max-content;
+  width: 1120px;
+  margin: 0 auto;
 }
 .tech-device-blc-0 {
   grid-column: 1/2;
