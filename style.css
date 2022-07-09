@@ -1365,7 +1365,10 @@
 }
 .title-technology-desktop-0>span {
   left: 0;
-  color: red;
+}
+
+.title-technology-desktop-0>.red { 
+  color: #D9673B;
 }
 .tech-sub-text {
   flex-direction: row;
@@ -1402,7 +1405,7 @@
   width: 100%;
 }
 .tech-infographic-img {
- width: 100%; 
+ width: 100%;
 }
 /* /tech orange top line */
 /* === /technology === */
