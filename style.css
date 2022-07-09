@@ -1436,6 +1436,32 @@
   grid-row: 2/3;
 }
 
-
 /* /tech orange top line */
 /* === /technology === */
+
+/* next */
+.next-up {
+  width: 100%;
+  background-image:url(img/next-smoke-bg.png);
+}
+.next-line-logo { 
+  width: 100%; 
+}
+.jamstack-online-wd {
+  width: 30%;
+}
+.next-blc-logo {
+  width: 700px;
+  justify-content: center;
+}
+.logo-sub-text {
+  flex-direction: row;
+  align-items: center;
+}
+.logo-sub-text > p {
+  margin: 5px;
+}
+.logo-grad-line {
+  width: 26%
+}
+/* /next */
