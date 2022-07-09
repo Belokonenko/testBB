@@ -1533,6 +1533,12 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(6, max-content);
 }
+.int p {
+  font-size: 16px;
+}
+.int h3 {
+  font-size: 18px;
+}
 .int-titel-wrap {
   grid-column: 1/-1;
   grid-row: 1/2;
@@ -1551,7 +1557,8 @@
   .int-wrap-text-1 {
     grid-column: 1/2;
     grid-row: 2/3;
-
+    justify-self: end;
+    margin-right: 40px;
   }
  .int-img {
    display: none;
@@ -1559,20 +1566,36 @@
 .int-wrap-text-2 {
     grid-column: 1/2;
     grid-row: 3/4;
+    justify-self: end;
+    margin-right: 40px;
 }
 
 .int-wrap-line-text {
     grid-column: 1/2;
     grid-row: 4/5;
+    justify-self: end;
+    margin-right: 40px;
 }
 .int-wrap-text-3 {
     grid-column: 1/2;
     grid-row: 5/6;
+    margin-top: 0;
+    justify-self: end;
+    margin-right: 40px;
 }
-
+.int-wrap-text-3 p {
+    margin-top: 0;
+}
 .int-wrap-text-4 {
     grid-column: 1/2;
     grid-row: 6/7;
+    padding: 10px;
+    margin: 0;
+    justify-self: end;
+    margin-right: 40px;
+}
+.int-wrap-text-4 p {
+  font-size: 14px;
 }
  .int-img-desctop {
    display: block;
@@ -1582,6 +1605,23 @@
     justify-self: center;
  }
  .int-itet-grid-container{
-  width: 560px;
+  width: 500px;
+  margin: 0;
  }
-/* Intellectual */
+/* /Intellectual */
+/* sec-business */ 
+
+.business-title-bg {
+  width: 100%;
+  background-image: url(img/grey-wave-patern.svg);
+  min-height: 150px;
+}
+.bss-title  {
+  font-size: 70px;
+  margin-top: 40px;
+}
+.bss-txt {
+font-size: 14px;
+}
+
+/* /sec-business */ 
