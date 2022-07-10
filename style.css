@@ -1769,7 +1769,7 @@
       font-size: 52px;
     }
     .section-txt p {
-      font-size: 14px; 
+      font-size: 14px;
     }
     .two-men {
       width: 100%;
@@ -1795,6 +1795,10 @@
 .investors-logo {
 
 }
-.investors-title-bg {
- background-image: url(img/Wave-for-white-bg.svg); 
+.investors-title-bg,
+.technology-title-bg{
+ background-image: url(img/Wave-for-white-bg.svg);
+}
+.next-line-logo {
+ background-image: url(img/grey-wave-patern.svg);
 }
