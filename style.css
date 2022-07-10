@@ -1551,7 +1551,7 @@
     grid-template-rows: repeat(6, max-content);
   }
   .int p {
-    font-size: 16px;
+    font-size: 20px;
   }
   .int h3 {
     font-size: 18px;
@@ -1609,11 +1609,13 @@
   .int-wrap .int-wrap-text-4 {
     grid-column: 1/2;
     grid-row: 5/6;
-    padding: 20px 10px;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    max-width: 500px;
 
   }
-  .int-wrap-text-4 p {
-    font-size: 14px;
+  .int-wrap .int-wrap-text-4 p{
+    max-width: 436px;
   }
   .int-img-desctop {
     display: block;
@@ -1746,7 +1748,7 @@
     }
     .investors .general-container {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      /* grid-template-columns: 1fr 1fr; */
       width: 100%;
     }
     .investors .invest-title {
@@ -1826,4 +1828,26 @@
 .tiktok-colab-banner{
   object-fit: cover;
   width: 100%;
+}
+
+.blue-music-rytm {
+  margin-top: 10px;
+}
+.investors-grid-wrap {
+  grid-template-rows: min-content min-content;
+}
+
+.our-investors-span {
+  margin-right:15px;
+}
+.dec-line-our-inv {
+  display: none;
+}
+
+.text-orange-line { padding: 25px; }
+.text-gradient-line {
+  font-size: 27px;
+}
+.int{
+  margin-bottom: 100px;
 }
