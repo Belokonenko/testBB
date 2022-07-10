@@ -1288,8 +1288,8 @@
 .advantages > div {
   width: 500px;
   justify-self: center;
-  margin: 20px;
-  min-height: 50px;
+  min-height: 0px;
+  margin-bottom: 10px;
 }
   .adventages-product-img-1{
     display: block;
@@ -1356,18 +1356,20 @@
     grid-row: 6/12;
     width: 100%;
     height: auto;
+    align-self: center;
   }
   .adventages-dec-w-line {
     grid-column: 1/-1;
     grid-row: 12/13;
     width: 1120px;
     margin: 0 auto;
+    margin-top: 20px;
   }
   .adventages-decor-deser-7 {
     grid-column: 1/-1;
     grid-row: 13/14;
     max-width: 1120px;
-    margin: 0 auto;
+    margin: 20px auto;
   }
 
   /* /advantages */
