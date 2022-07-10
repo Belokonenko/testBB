@@ -1854,3 +1854,12 @@
 .email-orange-btn {
 margin-top: 20px;
 }
+
+.best-wrap-blocks-icons {
+
+}
+.best-block-1, .best-block-2 {
+  flex-direction: row;
+  column-gap: 40px;
+  align-items: start;
+}
