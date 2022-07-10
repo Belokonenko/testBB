@@ -1745,7 +1745,9 @@
     .investors .general-container {
       display: grid;
       grid-template-columns: 1fr 1fr;
-    
+    }
+    .investors .invest-title {
+      font-size: 52px;
     }
     .two-men {
       display: block;
