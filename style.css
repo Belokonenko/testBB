@@ -1823,3 +1823,7 @@
 .func-text  p {
   font-size: 20px;
 }
+.tiktok-colab-banner{
+  object-fit: cover;
+  width: 100%;
+}
