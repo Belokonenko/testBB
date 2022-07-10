@@ -807,6 +807,9 @@
     width: 100%;
   }
   /* === /base === */
+.invest-list {
+  font-size: 35px;
+}
   /* === header === */
   .logo-block {
     min-height: 230px;
@@ -1763,10 +1766,6 @@
     }
 
     /* /partners */
-    .invest-section *,
-    .invest-section p {
-      font-size: 16px;
-    }
     .invest-section h2 {
       font-size: 52px;
     }
