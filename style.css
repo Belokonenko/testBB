@@ -1788,3 +1788,13 @@
 .wrap-collab-bg{
   width: 100% ;
 }
+.flex-container {
+  justify-content: center;
+  align-items: center;
+}
+.investors-logo {
+
+}
+.investors-title-bg {
+ background-image: url(img/Wave-for-white-bg.svg); 
+}
