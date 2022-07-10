@@ -1543,7 +1543,7 @@
   }
   /* /next */
   /* Intellectual */
-  .int {
+  .int-wrap{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6, max-content);
@@ -1553,10 +1553,6 @@
   }
   .int h3 {
     font-size: 18px;
-  }
-  .int-titel-wrap {
-    grid-column: 1/-1;
-    grid-row: 1/2;
   }
   .int-titel  {
     text-align: center;
@@ -1569,9 +1565,16 @@
     left: 0;
     color:#000 ;
   }
+  .int-wrap div {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    justify-self: center;
+    margin: 5px auto;
+  }
   .int-wrap-text-1 {
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 1/2;
     justify-self: end;
     margin-right: 40px;
   }
@@ -1580,20 +1583,20 @@
   }
   .int-wrap-text-2 {
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row:2/3;
     justify-self: end;
     margin-right: 40px;
   }
 
   .int-wrap-line-text {
     grid-column: 1/2;
-    grid-row: 4/5;
+    grid-row: 3/4;
     justify-self: end;
     margin-right: 40px;
   }
   .int-wrap-text-3 {
     grid-column: 1/2;
-    grid-row: 5/6;
+    grid-row:4/5;
     margin-top: 0;
     justify-self: end;
     margin-right: 40px;
@@ -1601,13 +1604,11 @@
   .int-wrap-text-3 p {
     margin-top: 0;
   }
-  .int-wrap-text-4 {
+  .int-wrap .int-wrap-text-4 {
     grid-column: 1/2;
-    grid-row: 6/7;
-    padding: 10px;
-    margin: 0;
-    justify-self: end;
-    margin-right: 40px;
+    grid-row: 5/6;
+    padding: 20px 10px;
+
   }
   .int-wrap-text-4 p {
     font-size: 14px;
@@ -1615,9 +1616,10 @@
   .int-img-desctop {
     display: block;
     grid-column: 2/-1;
-    grid-row: 2/-1;
+    grid-row: 1/-1;
     align-self: center;
     justify-self: center;
+    width: 100%;
   }
   .int-itet-grid-container{
     width: 500px;
