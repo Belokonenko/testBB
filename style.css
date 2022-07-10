@@ -1285,10 +1285,18 @@
     grid-template-rows: repeat(12, max-content);
     width: 100%;
   }
+.advantages > div {
+  width: 500px;
+  justify-self: center;
+  margin: 20px;
+  min-height: 50px;
+}
   .adventages-product-img-1{
     display: block;
     grid-column: 1/2;
     grid-row: 1/6;
+    width: 100%;
+    height: auto;
   }
   .advan-grid {
     display: flex;
@@ -1346,6 +1354,8 @@
     display: block;
     grid-column: 2/-1;
     grid-row: 6/12;
+    width: 100%;
+    height: auto;
   }
   .adventages-dec-w-line {
     grid-column: 1/-1;
