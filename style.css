@@ -1866,3 +1866,7 @@ margin-top: 20px;
 .advantages > div {
   margin-top: 0;
 }
+
+.investors-firs-block {
+  grid-template-columns: 1fr 1fr;
+}
