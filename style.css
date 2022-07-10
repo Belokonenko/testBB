@@ -123,7 +123,6 @@
 .img-product {
   position: absolute;
   top: 0;
-  left: 0;
   right: 0;
 }
 
@@ -839,8 +838,9 @@
     width: 100%;
     min-height: 700px;
   }
-  .smoke-container > .img-product {
-    top: -75px;
+  .img-product {
+
+    top: -494px;
     left: 50%;
     transform: translate(-50%);
     min-height: 750px;
