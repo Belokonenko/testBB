@@ -1802,3 +1802,18 @@
 .next-line-logo {
  background-image: url(img/grey-wave-patern.svg);
 }
+/* .business-title { */
+/*   flex-direction: column; */
+/*   max-width: 800px; */
+/* } */
+.the-best-title {
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.tech-device-blc-1 {
+  align-items: start;
+}
+.tech-warp-deviсe {
+  margin-top: 20px;
+}
