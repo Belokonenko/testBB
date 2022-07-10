@@ -1192,6 +1192,9 @@
     display: grid;
     grid-template-columns: 50% 50%;
   }
+  .block-wrap {
+    align-self: center;
+  }
   .solution-text-order {
     order: 2;
   }
@@ -1233,7 +1236,7 @@
   .block-want-title--hiden {
     grid-column: 1/2;
     grid-row: 1/2;
-
+    align-self: end;
   }
   .car-text-p {
     grid-column: 1/2;
@@ -1632,7 +1635,8 @@
   }
   .blk-txt {
     padding-right: 25px;
-    margin-left: auto;
+    /* margin-left: auto; */
+    justify-self: center;
     width: 560px;
   }
 
@@ -1706,6 +1710,10 @@
   }
   .opp-graph .general-container {
     width: 100%;
+  }
+
+  .opp-graph .descr-items {
+    width: 200px;
   }
   .opp-photo {
     grid-column: 1/-1;
