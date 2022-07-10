@@ -789,6 +789,8 @@
 
 
 @media (min-width: 1200px) {
+
+
   /* === base === */
   .disp-none {
     display: none;
@@ -807,9 +809,6 @@
     width: 100%;
   }
   /* === /base === */
-.invest-list {
-  font-size: 35px;
-}
   /* === header === */
   .logo-block {
     min-height: 230px;
@@ -1778,3 +1777,10 @@
 
 
 
+.invest-list {
+  font-size: 35px;
+}
+.block-unique-w {
+  font-size: 40px !important;
+}
+.block-white-unique-img {height: 35px;}
