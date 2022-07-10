@@ -1745,6 +1745,7 @@
     .investors .general-container {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      width: 100%;
     }
     .investors .invest-title {
       font-size: 52px;
@@ -1752,4 +1753,29 @@
     .two-men {
       display: block;
     }
+    .investors-logo {
+      padding: 50px;
+    }
   /* /investors */
+    /* partners */
+    .partners h2 {
+      font-size: 52px;
+    }
+
+    /* /partners */
+    .invest-section *,
+    .invest-section p {
+      font-size: 16px;
+    }
+    .invest-section h2 {
+      font-size: 52px;
+    }
+    .section-txt p {
+      font-size: 14px; 
+    }
+    .two-men {
+      width: 100%;
+    }
+
+
+
