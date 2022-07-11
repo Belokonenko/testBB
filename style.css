@@ -222,10 +222,7 @@
 }
 
 .who-descr-bg-img {
-  /* background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/who-bg.svg) center center/100% no-repeat; */
-
-
-  background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/musical_rhythms-bg-grey.svg) center center/100% no-repeat;
+  background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/who-bg.svg) center center/100% no-repeat;
   padding-bottom: 1px;
 }
 .who-descr-container {
