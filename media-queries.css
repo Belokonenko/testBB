@@ -207,6 +207,9 @@
     .general-title {
     font-size: 52px;
     }
+    .tech-flex-mob{
+      width: 90%;
+    }
     /* /fix-mob */
 
 }
