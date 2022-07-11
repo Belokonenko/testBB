@@ -167,7 +167,7 @@
 .text-descr {
   font-family: Gilroy-Medium,sans-serif;
   font-weight: 500;
-  font-size: 23px;
+  font-size: 27px;
   margin-top: 20px;
   color: white;
   line-height: 1.2;
@@ -344,7 +344,7 @@
   color: #C82F1A;
   font-family: Gilroy-Bold,sans-serif;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 25px;
   white-space: nowrap;
 }
 
@@ -373,7 +373,7 @@
   margin-top: 0;
 }
 .problem-section {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 .problem-title {
   display: flex;
@@ -488,7 +488,7 @@
   margin-right: 10px;
   font-family: Gilroy-ExtraBold,sans-serif;
   font-weight: 900;
-  font-size: 23px;
+  font-size: 24px;
   text-transform: uppercase;
 }
 
@@ -532,7 +532,7 @@
 }
 
 .blue-gradient {
-  padding: 20px 0;
+  padding: 30px 0;
   background: linear-gradient(180deg,#0F16B5, #804380, #9D8AE0);
 }
 
@@ -791,6 +791,7 @@
 @media (min-width: 1200px) {
 
 
+
   /* === base === */
   .disp-none {
     display: none;
@@ -879,19 +880,19 @@
   .banner-text-0, .banner-text-1 {
     max-width: 1120px;
     margin: 0 auto;
-    font-size: 30px;
+    font-size: 25px;
   }
   .banner-text-0  {
-    padding-top: 100px;
+    padding-top: 40px;
   }
   .banner-text-1  {
-    padding-top: 45px;
+    padding-top: 27px;
     margin-bottom: 60px;
   }
   /* === /banner smoke-container === */
   /* === review === */
   .text-descr-review {
-    font-size: 21px;
+    font-size: 24px;
   }
   .reviews-bg {
     max-width: 1120px;
@@ -923,11 +924,11 @@
 
   .video {
     padding: 100px  0;
-    background-image: url(img/musical_rhythms-bg-dark-grey.svg);
+    background-image: url(img/music-wave-w.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
-    background-color: #2e3234;
+    background-color: #141414;
   }
   /* === mission === */
   .mission-section>.general-container {
@@ -968,7 +969,7 @@
   }
 
   .mission-sub-title {
-    font-size: 46px;
+    font-size: 60px;
   }
   .sub-title-mission-block {
     margin-top: 100px;
@@ -995,11 +996,13 @@
     /* object-position: center center; */
     /* transform: translate(-50% -50%); */
     /* object-fit: cover; */
+    margin: 42px 0 94px 0;
   }
   /* === /mission === */
   /* === invest === */
   .invest-section>.title-bg {
     background-image: url(img/Wave-for-white-bg.svg);
+    margin-top: 50px;
   }
   .invest-list-num {
     position: absolute;
@@ -1144,7 +1147,7 @@
     margin-top: 300px;
   }
   .solution-text-descr>p {
-    font-size: 30px;
+    font-size: 25px;
   }
   .solution-text-p {
     max-width: 1120px;
@@ -1163,7 +1166,7 @@
     background-image: url(img/solution-product-bg-img.png);
     background-size: 30%;
     background-position: center center;
-    background-position-y: 50%;
+    background-position-y: 60%;
     background-repeat: no-repeat;
   }
   .solution-product-img{
@@ -1179,7 +1182,7 @@
     grid-template-rows: repeat(8, max-content);
     grid-column-gap: 25vw;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 60px;
   }
   .solution-functions .solution-items:nth-child(odd){
     flex-direction: row-reverse;
@@ -1291,7 +1294,6 @@
   width: 500px;
   justify-self: center;
   min-height: 0px;
-  margin-bottom: 10px;
 }
   .adventages-product-img-1{
     display: block;
@@ -1379,9 +1381,11 @@
   /* === technology === */
   .title-technology-desktop-0{
     text-align: center;
+    font-size: 90px;
   }
   .title-technology-desktop-0>span {
     left: 0;
+    font-size: 90px;
   }
 
   .title-technology-desktop-0>.red {
@@ -1465,7 +1469,7 @@
     width: 100%;
   }
   .jamstack-online-wd {
-    width: 30%;
+    width: 45%;
   }
   .next-blc-logo {
     width: 700px;
@@ -1494,7 +1498,6 @@
     grid-template-rows:  repeat(5, max-content);
     width: 1120px;
     margin: 0 auto;
-    padding-top: 40px;
   }
   .func {
     width: 560px;
@@ -1506,11 +1509,11 @@
     font-size: 16px;
   }
   .func-img{
-    width: 170px;
+    width: 250px;
   }
   .func-photo {
 
-    height:  460px;
+    height: 93%;
     margin-left: 100px;
   }
   .func-text {
@@ -1541,7 +1544,7 @@
     padding: 10px;
   }
   .value-line-orange h4 {
-    font-size: 24px;
+    font-size: 34px;
   }
   /* /next */
   /* Intellectual */
@@ -1551,7 +1554,7 @@
     grid-template-rows: repeat(6, max-content);
   }
   .int p {
-    font-size: 20px;
+    font-size: 24px;
   }
   .int h3 {
     font-size: 18px;
@@ -1566,13 +1569,14 @@
   .int-titel span {
     left: 0;
     color:#000 ;
+    font-size: 90px;
   }
   .int-wrap div {
     margin: 0;
     padding: 0;
     align-self: center;
     justify-self: center;
-    margin: 5px auto;
+    margin: 10px auto;
   }
   .int-wrap-text-1 {
     grid-column: 1/2;
@@ -1638,7 +1642,7 @@
     min-height: 150px;
   }
   .bss-title  {
-    font-size: 70px;
+    font-size: 90px;
     margin-top: 40px;
   }
   .bss-txt {
@@ -1665,7 +1669,7 @@
     background: none;
   }
   .blk-txt * {
-    font-size: 16px;
+    font-size: 24px;
   }
   .blk-txt .grey-bg {
     padding: 10px;
@@ -1688,7 +1692,7 @@
     margin: 0;
   }
   .wrap-photo {
-    margin: 0;
+    margin: 13% auto;
     width: 100%;
     height: 100%;
   }
@@ -1706,7 +1710,7 @@
     align-items: end;
   }
   .opportunity .general-title {
-    font-size: 52px;
+    font-size: 90px;
     margin-top: 50px;
   }
   .opp-title{
@@ -1745,6 +1749,7 @@
   /* investors */
     .investors .investors-title-bg  {
       width: 100%;
+      margin: 34px 0 34px 0;
     }
     .investors .general-container {
       display: grid;
@@ -1752,7 +1757,7 @@
       width: 100%;
     }
     .investors .invest-title {
-      font-size: 52px;
+      font-size: 90px;
     }
     .two-men {
       display: block;
@@ -1763,15 +1768,15 @@
   /* /investors */
     /* partners */
     .partners h2 {
-      font-size: 52px;
+      font-size: 70px;
     }
 
     /* /partners */
     .invest-section h2 {
-      font-size: 52px;
+      font-size: 90px;
     }
     .section-txt p {
-      font-size: 14px;
+      font-size: 16px;
     }
     .two-men {
       width: 100%;
@@ -1780,7 +1785,7 @@
 
 
 .invest-list {
-  font-size: 35px;
+  font-size: 25px;
 }
 .block-unique-w {
   font-size: 40px !important;
@@ -1818,6 +1823,7 @@
 }
 .tech-warp-deviсe {
   margin-top: 20px;
+  margin-bottom: 33px;
 }
 .func-text h4 {
   font-size: 22px;
@@ -1831,7 +1837,7 @@
 }
 
 .blue-music-rytm {
-  margin-top: 10px;
+  margin-top: 50px;
 }
 .investors-grid-wrap {
   grid-template-rows: min-content min-content;
@@ -1856,7 +1862,7 @@ margin-top: 20px;
 }
 
 .best-wrap-blocks-icons {
-
+ margin-top: 40px;
 }
 .best-block-1, .best-block-2 {
   flex-direction: row;
@@ -1869,4 +1875,23 @@ margin-top: 20px;
 
 .investors-firs-block {
   grid-template-columns: 1fr 1fr;
+}
+
+.title-size-he {
+  font-size: 90px;
+}
+.indent-desc {
+  margin-top: 70px;
+}
+.link-bottom {
+  font-size: 35px;
+}
+.size-big-desc {
+  font-size: 30px;
+}
+.padding-email {
+  padding: 100px;
+}
+.decorative-white-line {
+  width: 17%;
 }
