@@ -192,9 +192,10 @@
     }
 
     /* fix-mob */
-    .local-container,
+    .local-container{
+      max-width: 100vw;
+    }
     .smoke-container{
-      max-width: 475px;
       max-width: 100vw;
     }
     .logo {
@@ -202,6 +203,9 @@
     }
     img {
       max-width: 100%;
+    }
+    .general-title {
+    font-size: 52px;
     }
     /* /fix-mob */
 
