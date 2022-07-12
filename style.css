@@ -854,6 +854,16 @@ width: 100vw;
   object-position: left;
 
 }
+.img-position{
+  width: 100%;
+}
+
+.img-product-smoke-monitor {
+  width: 100%;
+}
+.container-smoke-pro-monitor {
+  width: 100%;
+}
 /* .int-titel { */
 /*   align-items: center; */
 
