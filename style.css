@@ -103,7 +103,6 @@
   height: 372px;
   background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/smoke-bg.png) center center/100% no-repeat;
 }
-
 .company-logo {
   display: flex;
   background-color:white;
@@ -851,6 +850,11 @@ width: 100vw;
 }
 /* /fix-tab */
 
+.car-img{
+  object-fit: cover;
+  object-position: left;
+
+}
 @media (min-width: 1200px) {
   /* === base === */
   .disp-none {
