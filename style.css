@@ -824,6 +824,7 @@ transition: 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 21px;
 }
 
 .text-btn::before {
@@ -853,6 +854,16 @@ width: 100vw;
   object-fit: cover;
   object-position: left;
 
+}
+.img-position{
+  width: 100%;
+}
+
+.img-product-smoke-monitor {
+  width: 100%;
+}
+.container-smoke-pro-monitor {
+  width: 100%;
 }
 /* .int-titel { */
 /*   align-items: center; */
@@ -961,7 +972,11 @@ width: 100vw;
   }
   .banner-btn {
     max-width: 550px;
+<<<<<<< HEAD
     font-size: 21px;
+=======
+    font-size: inherit;
+>>>>>>> 19eade4ec135622b3c1b33fcd98d07de9313905c
   }
   /* === /banner smoke-container === */
   /* === review === */
@@ -1239,9 +1254,6 @@ width: 100vw;
   }
 
   .solution-functions {
-    /* position: absolute; */
-    /* left:  49%; */
-    /* transform: translate(-50%, 0); */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(8, max-content);
