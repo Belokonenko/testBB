@@ -972,11 +972,8 @@ width: 100vw;
   }
   .banner-btn {
     max-width: 550px;
-<<<<<<< HEAD
     font-size: 21px;
-=======
     font-size: inherit;
->>>>>>> 19eade4ec135622b3c1b33fcd98d07de9313905c
   }
   /* === /banner smoke-container === */
   /* === review === */
