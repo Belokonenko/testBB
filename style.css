@@ -813,7 +813,14 @@ text-decoration: none;
 font-weight: 900;
 margin: 50px auto;
 max-width: 635px;
+transition: 0.3s;
 
+}
+
+.banner-btn:hover {
+  background: #cd3319;
+  /* position: relative; */
+  /* top:-2px; */
 }
 
 .text-btn {
