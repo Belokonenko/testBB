@@ -795,10 +795,36 @@
   right: 50%;
   transform: translateX(50%);
 }
+.banner-btn {
+display: block;
+background: linear-gradient(45deg,#cd3319, #d76a3d, #de7e4e);
+border-radius: 99em;
+border: 1em solid #212121;
+padding: .7em 2.5em;
+color: #fff;
+font-size: 1.5em;
+font-family: Gilroy-ExtraBold,sans-serif;;
+text-decoration: none;
+font-weight: 900;
+margin: 50px auto;
+max-width: 635px;
+
+}
+
+.text-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-btn::before {
+  content: url(img/icon/botton-icon-deck.svg);
+  margin-right: 1em;
+  transform: translateY(10%);
+}
 /* /fix-tab */
 
 @media (min-width: 1200px) {
-
   /* === base === */
   .disp-none {
     display: none;
@@ -890,6 +916,10 @@
   .banner-text-1  {
     padding-top: 27px;
     margin-bottom: 60px;
+  }
+  .banner-btn {
+    max-width: 450px;
+    font-size: inherit;
   }
   /* === /banner smoke-container === */
   /* === review === */
@@ -1126,7 +1156,7 @@
     height: 78%;
     width: 40vw;
     line-height: 1;
-    background: linear-gradient(45deg,#D9673B, #D3532D, #C31C12);;
+    background: linear-gradient(45deg,#D9673B, #D3532D, #C31C12);
 
   }
   .solution-decor-line-hidden {
@@ -2110,6 +2140,12 @@
 
   .tech-flex-mob {
     width: 90%;
+  }
+  .banner-btn {
+    max-width: 100vw;
+    
+  }
+  .text-btn {
   }
   /* /fix-mob */
 }
