@@ -303,7 +303,10 @@
 }
 
 .title-bg {
-  background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/musical_rhythms-bg-grey.svg) center center/100% no-repeat;
+  /* background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/musical_rhythms-bg-grey.svg) center center/100% no-repeat; */
+/* background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/bg-title-buissnes.png) center center/100% no-repeat; */
+background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/Our-Current-bg.png) center center/100% no-repeat;
+background-size: 70%;
   display: block;
   padding: 50px 0 50px 0;
 }
@@ -538,7 +541,9 @@
 
 .technology-title-bg {
   padding: 50px 0 50px 0;
-  background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/musical_rhythms-bg-grey.svg) center center/100% no-repeat;
+  /* background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/musical_rhythms-bg-grey.svg) center center/100% no-repeat; */
+background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/Our-Current-bg.png) center center/100% no-repeat;
+background-size: 70%;
 }
 
 .title-technology {
