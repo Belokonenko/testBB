@@ -543,7 +543,6 @@ background-size: 70%;
   padding: 50px 0 50px 0;
   /* background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/musical_rhythms-bg-grey.svg) center center/100% no-repeat; */
 background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/Our-Current-bg.png) center center/100% no-repeat;
-background-size: 70%;
 }
 
 .title-technology {
@@ -833,6 +832,22 @@ transition: 0.3s;
   content: url(img/icon/botton-icon-deck.svg);
   margin-right: 1em;
   transform: translateY(10%);
+}
+
+.late-bg{
+  width: 100vw;
+}
+.tiktok-colab-banner {
+  width: 100vw;
+}
+.wrap-collab-bg {
+width: 100vw;
+}
+.next-line-logo {
+  width: 100%;
+}
+.business-title-bg {
+  width: 100%;
 }
 /* /fix-tab */
 
