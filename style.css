@@ -824,6 +824,7 @@ transition: 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 21px;
 }
 
 .text-btn::before {
@@ -965,7 +966,7 @@ width: 100vw;
     margin-bottom: 60px;
   }
   .banner-btn {
-    max-width: 450px;
+    max-width: 550px;
     font-size: inherit;
   }
   /* === /banner smoke-container === */
