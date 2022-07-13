@@ -736,7 +736,7 @@ background: url(https://jamstack-assets.s3.us-west-1.amazonaws.com/img/Our-Curre
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 25px;
 }
 
 .padding-normalise {
@@ -1951,6 +1951,7 @@ width: 100vw;
   }
   .size-big-desc {
     font-size: 30px;
+    text-align: center;
   }
   .padding-email {
     padding: 100px;
@@ -1958,7 +1959,9 @@ width: 100vw;
   .decorative-white-line {
     width: 17%;
   }
-
+  .email-font {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (max-width: 475px) {
